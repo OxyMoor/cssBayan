@@ -1,0 +1,113 @@
+@media (min-width: 321px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header__row {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .header__title {
+        font-size: 32px;
+    }
+    
+    .header__subtitle {
+        font-size: 24px;
+    }
+
+    .memes-list__item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .memes-list__item-title {
+        font-size: 16px;
+    }
+
+    .memes-list__radio:checked + .memes-list__label > .memes-list__img {
+        width: 70%;
+        transform: scale(1);
+    }
+
+    .footer__row {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (min-width: 821px) {
+    .container {
+        max-width: 1000px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .header__row {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .header__title {
+        font-size: 40px;
+    }
+    
+    .header__subtitle {
+        font-size: 32px;
+    }
+
+    .memes-list__item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .memes-list:hover .memes-list__item-icon {
+        display: block;
+    }
+    
+    .memes-list:hover .memes-list__item-title {
+        color: #000000;
+    }
+
+    .memes-list__item-title {
+        font-size: 18px;
+    }
+
+    .memes-list__item:hover > .memes-list__label > .memes-list__img {
+        width: 50%;
+        transform: scale(1);
+        transition: transform 0.2s ease-in;
+    }
+
+    .memes-list__radio:checked + .memes-list__label > .memes-list__img {
+        width: 50%;
+        transform: scale(1);
+    }
+
+    .footer__row {
+        flex-direction: row;
+        justify-content: space-between;
+        column-gap: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer__link:hover {
+        color: #585858;
+    }
+}
+
+@media (min-width: 1920px) {
+    .header__title {
+        font-size: 42px;
+    }
+    
+    .header__subtitle {
+        font-size: 36px;
+    }
+
+    .memes-list__item-title {
+        font-size: 24px;
+    }
+}
