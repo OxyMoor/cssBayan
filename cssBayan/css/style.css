@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", "sans-serif";
+}
+
+.header, .main, .footer {
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.header__row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.header__title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header__subtitle {
+    font-size: 18px;
+}
+
+.memes-list {
+    list-style: none;
+}
+
+.memes-list:hover .memes-list__item-icon {
+    display: block;
+}
+
+.memes-list__item {
+    display: none;
+}
+
+.memes-list__item_active {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.memes-list__item-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.memes-list__item-title {
+    font-size: 14px;
+}
+
+.memes-list__item-icon {
+    display: none;
+    width: 15px;
+    height: 15px;
+    background: url("../img/plus.svg") center no-repeat;
+    background-size: contain;
+}
+
+.memes-list__item_active .memes-list__item-icon {
+    background: url("../img/cross.svg") center no-repeat;
+    background-size: contain;
+}
+
+.memes-list__img {
+    width: 100%;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: #000000;
+}
+
+.footer__link-icon {
+    height: 30px;
+}
+
+.footer__row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
