@@ -1,28 +1,5 @@
 @media (min-width: 321px) {
-    .container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .header__row {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .header__title {
-        font-size: 32px;
-    }
-    
-    .header__subtitle {
-        font-size: 24px;
-    }
-
-    .memes-list__item {
-        padding-top: 10px;
-        padding-bottom: 10px;
-    }
-
-    .memes-list__item-title {
+    html {
         font-size: 16px;
     }
 
@@ -30,36 +7,15 @@
         width: 70%;
         transform: scale(1);
     }
-
-    .footer__row {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
 }
 
 @media (min-width: 821px) {
+    html {
+        font-size: 18px;
+    }
+
     .container {
         max-width: 1000px;
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-
-    .header__row {
-        padding-top: 20px;
-        padding-bottom: 20px;
-    }
-
-    .header__title {
-        font-size: 40px;
-    }
-    
-    .header__subtitle {
-        font-size: 32px;
-    }
-
-    .memes-list__item {
-        padding-top: 15px;
-        padding-bottom: 15px;
     }
 
     .memes-list:hover .memes-list__item-icon {
@@ -68,10 +24,6 @@
     
     .memes-list:hover .memes-list__item-title {
         color: #000000;
-    }
-
-    .memes-list__item-title {
-        font-size: 18px;
     }
 
     .memes-list__item:hover > .memes-list__label > .memes-list__img {
@@ -88,9 +40,6 @@
     .footer__row {
         flex-direction: row;
         justify-content: space-between;
-        column-gap: 30px;
-        padding-top: 20px;
-        padding-bottom: 20px;
     }
 
     .footer__link:hover {
@@ -99,15 +48,7 @@
 }
 
 @media (min-width: 1920px) {
-    .header__title {
-        font-size: 42px;
-    }
-    
-    .header__subtitle {
-        font-size: 36px;
-    }
-
-    .memes-list__item-title {
+    html {
         font-size: 24px;
     }
 }
