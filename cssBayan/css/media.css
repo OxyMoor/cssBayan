@@ -1,0 +1,54 @@
+@media (min-width: 321px) {
+    html {
+        font-size: 16px;
+    }
+
+    .memes-list__radio:checked + .memes-list__label > .memes-list__img {
+        width: 70%;
+        transform: scale(1);
+    }
+}
+
+@media (min-width: 821px) {
+    html {
+        font-size: 18px;
+    }
+
+    .container {
+        max-width: 1000px;
+    }
+
+    .memes-list:hover .memes-list__item-icon {
+        display: block;
+    }
+    
+    .memes-list:hover .memes-list__item-title {
+        color: #000000;
+    }
+
+    .memes-list__item:hover > .memes-list__label > .memes-list__img {
+        width: 50%;
+        transform: scale(1);
+        transition: transform 0.2s ease-in;
+    }
+
+    .memes-list__radio:checked + .memes-list__label > .memes-list__img {
+        width: 50%;
+        transform: scale(1);
+    }
+
+    .footer__row {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer__link:hover {
+        color: #585858;
+    }
+}
+
+@media (min-width: 1920px) {
+    html {
+        font-size: 24px;
+    }
+}
